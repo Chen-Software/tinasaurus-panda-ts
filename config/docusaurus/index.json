@@ -1,12 +1,12 @@
 {
   "label": "Settings",
   "logo": {
-    "alt": "Tina",
-    "src": "/img/tina-icon.svg"
+    "alt": "CMS",
+    "src": "/img/logo.svg"
   },
   "title": "CMS",
   "tagline": "Tina + Docusaurus",
-  "url": "https://cms.chen.so/",
+  "url": "https://cms.chen.software/",
   "navbar": [
     {
       "label": "Docs",
