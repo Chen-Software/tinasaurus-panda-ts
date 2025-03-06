@@ -1,6 +1,7 @@
 import React from "react";
 import { defineConfig, TextField } from "tinacms";
 import { ReferenceField } from "tinacms";
+import title from "title";
 import { docusaurusDate, titleFromSlug } from "../utils/cms-formatter";
 
 // Your hosting provider likely exposes this as an environment variable
