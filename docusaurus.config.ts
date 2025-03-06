@@ -88,7 +88,7 @@ const formatNavbarItem = (item, subnav = false) => {
 const config = {
   title: docusaurusData.title || "My Site",
   tagline: docusaurusData.tagline || "Tina + Docusaurus",
-  url: docusaurusData.url || "https://cms.chen.so/",
+  url: docusaurusData.url || "https://cms.chen.software/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
