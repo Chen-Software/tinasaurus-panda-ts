@@ -88,7 +88,7 @@ const formatNavbarItem = (item, subnav = false) => {
 const config = {
   title: docusaurusData.title || "My Site",
   tagline: docusaurusData.tagline || "Tina + Docusaurus",
-  url: docusaurusData.url || "https://cms.chen.so/",
+  url: docusaurusData.url || "https://cms.chen.software/",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -105,7 +105,7 @@ const config = {
     [
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: docusaurusData.url + "/admin/#/collections/doc",
@@ -117,13 +117,13 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-      }),
+      },
     ],
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    {
       navbar: {
         title: docusaurusData.title || "",
         logo: {
@@ -151,7 +151,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-    }),
+    },
 };
 
 module.exports = config;
