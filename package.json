@@ -31,7 +31,7 @@
     "@docusaurus/types": "latest",
     "@pandacss/dev": "latest",
     "@tinacms/cli": "latest",
-    "@types/node": "^22.13.9",
+    "@types/node": "^22.13.10",
     "prettier": "latest",
     "title": "^4.0.1",
     "typescript": "latest"
