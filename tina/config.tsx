@@ -1,5 +1,5 @@
 import React, { createElement as h } from "react";
-import { defineConfig, TextField } from "tinacms";
+import { Collection, defineConfig, TextField } from "tinacms";
 import { ReferenceField } from "tinacms";
 import title from "title";
 import { docusaurusDate, titleFromSlug } from "../utils/cms-formatter";
@@ -141,7 +141,7 @@ const PostCollection = {
   ],
 };
 
-const DocsCollection = {
+const DocsCollection: Collection = {
   name: "doc",
   label: "Docs",
   path: "docs",
@@ -639,7 +639,7 @@ const HomepageCollection = {
   ],
 };
 
-const PagesCollection = {
+const PagesCollection: Collection = {
   name: "pages",
   label: "Pages",
   path: "src/pages",
